@@ -34,7 +34,7 @@ msgLen_confirm = 12;
 Ktry = 0;
 while s.BytesAvailable < msgLen_confirm && Ktry < 1000
   Ktry = Ktry + 1;
-  pause(0.0001)
+  pause(0.001)
 end
 %fprintf('Ktry:%d\n',Ktry);
 
